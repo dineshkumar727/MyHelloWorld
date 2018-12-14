@@ -1,9 +1,10 @@
 public class MyFirstClass
 {
-  public void MyfirstClass()
+  public void MyfirstClass(String one, String two )
   {
-      System.debug('My First Apex Class from DX');
+      System.debug('My First Apex Class from DX' + one);
 	  
-	  System.debug('My new addition to apex');
+	  System.debug('My new addition to apex' + two  );
+	  
   }
 }
