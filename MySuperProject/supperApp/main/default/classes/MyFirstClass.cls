@@ -8,8 +8,6 @@ public class MyFirstClass
       System.debug('My First Apex Class from DX' + one);
 	   Myacc.industry = two;
 	   System.debug('My new addition to apex' + two  );
-
-
-	  
+     insert Myacc;
   }
 }
